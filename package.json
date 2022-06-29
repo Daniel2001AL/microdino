@@ -1,0 +1,31 @@
+{
+  "name": "microdinos",
+  "version": "1.0.0",
+  "description": "Microservicio dinosaurios for SOA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel2001AL/microdino.git"
+  },
+  "keywords": [
+    "JS",
+    "Dino"
+  ],
+  "author": "Daniel Rios",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.16"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniel2001AL/microdino/issues"
+  },
+  "homepage": "https://github.com/Daniel2001AL/microdino#readme",
+  "type": "module"
+}
