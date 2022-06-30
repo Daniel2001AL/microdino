@@ -22,7 +22,7 @@ const my_route = ruta.get("/random", (req,res)=>{
 
 app.use("/dinos",my_route);
 app.get('/', (req,res)=>{
-    res.send({"message":"Si Jala"})
+    res.send({"message":"Si Jalisco"})
 });
 
 app.listen(port, function () {
